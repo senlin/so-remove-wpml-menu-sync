@@ -29,7 +29,7 @@ function so_no_wpml_warning() {
     
     echo '<div class="message error"><p>';
     
-    printf(__( 'The <strong>remove-wpml-menu-sync function</strong> that you just added to your theme only works if you have the <a href="%s">WPML</a> plugin installed.', 'theme-text-domain' ), 
+    printf(__( 'The <strong>SO Remove WPML Menu Sync plugin</strong> only works if you have the <a href="%s">WPML</a> plugin installed.', 'theme-text-domain' ), 
         'http://wpml.org/' );
     
     echo '</p></div>';
