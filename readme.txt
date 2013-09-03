@@ -7,7 +7,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This free [WPML](http://wpml.org) Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
+This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend.
 
 == Description ==
 
@@ -62,7 +62,7 @@ This plugin is an Addon for [WPML](http://wpml.org), the plugin that enables any
 
 = I have an issue with this plugin, where can I get support? =
 
-Please open an issue here on [Github](https://github.com/so-wp/so-remove-wpml-menu-sync/issues)
+Please open an issue on [Github](https://github.com/so-wp/so-remove-wpml-menu-sync/issues)
 
 == Screenshots ==
 
