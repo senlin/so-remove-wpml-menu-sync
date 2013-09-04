@@ -11,6 +11,8 @@ This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar me
 
 == Description ==
 
+> This plugin is an Addon for the amazing <em>WPML Plugin</em>.
+
 The WP Menus Sync feature of WPML can be very useful if all the content that is going to be part of the menu items in the navigation menu(s) too already has been translated. However not all people (developers) have that luxury and therefore choose to translate the navigation menu(s) manually.
 
 In that case it would not be a good idea when the client unwittingly clicks on that WPML submenu (or on the synchronization link in the Menus page) and starts syncing menus.
