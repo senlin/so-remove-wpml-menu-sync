@@ -1,5 +1,4 @@
 # SO Remove WPML Menu Sync
-==========================
 
 ###### Version 0.1
 ###### requires at least WordPress 3.5
