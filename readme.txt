@@ -32,7 +32,7 @@ I have decided to only support this plugin through [Github](https://github.com/s
 Thanks for your understanding and cooperation.
 
 
-## Installation
+== Installation ==
 
 Quick installation: [Install now](http://coveredwebservices.com/wp-plugin-install/?plugin=so-remove-wpml-menu-sync) !
 
