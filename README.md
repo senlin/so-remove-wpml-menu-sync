@@ -1,8 +1,8 @@
 # SO Remove WPML Menu Sync
 
-###### Version 0.1
-###### requires at least WordPress 3.5
-###### tested up to 3.6
+###### Version 0.2
+###### requires at least WordPress 3.6
+###### tested up to 3.7.1
 ###### Author: [Piet Bos](https://github.com/senlin)
 
 
@@ -80,10 +80,12 @@ This repo is open to _any_ kind of contributions.
 
 ## Changelog
 
-= next version =
+### 0.2
 
-* 
+* Add version check
+* Update minimum required version (WP 3.6)
+* Compatible up to 3.7.1
 
-= 0.1 =
+###0.1
 
 * First stable release

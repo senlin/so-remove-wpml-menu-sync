@@ -1,9 +1,9 @@
 === SO Remove WPML Menu Sync ===
 Contributor: senlin
 Tags: wpml, menu, sync, synchronization, addon
-Requires at least: 3.5
-Tested up to: 3.6
-Stable tag: 0.1
+Requires at least: 3.6
+Tested up to: 3.7.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,12 @@ Please open an issue on [Github](https://github.com/so-wp/so-remove-wpml-menu-sy
 none
 
 == Changelog ==
+
+= 0.2 =
+
+* Add version check
+* Update minimum required version (WP 3.6)
+* Compatible up to 3.7.1
 
 = 0.1 =
 

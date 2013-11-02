@@ -4,7 +4,7 @@ Plugin Name: SO Remove WPML Menu Sync
 Plugin URI: https://github.com/senlin/so-remove-wpml-menu-sync
 Description: This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
 Author: Piet Bos
-Version: 0.1
+Version: 0.2
 Author URI: http://senlinonline.com
 */
 
@@ -16,6 +16,56 @@ Author URI: http://senlinonline.com
  */
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
+/**
+ * Version check; any WP version under 3.6 is not supported (if only to "force" users to stay up to date)
+ * 
+ * adapted from example by Thomas Scholz (@toscho) http://wordpress.stackexchange.com/a/95183/2015, Version: 2013.03.31, Licence: MIT (http://opensource.org/licenses/MIT)
+ *
+ * @since 0.2
+ */
+
+//Only do this when on the Plugins page.
+if ( ! empty ( $GLOBALS['pagenow'] ) && 'plugins.php' === $GLOBALS['pagenow'] )
+	add_action( 'admin_notices', 'so_rwms_check_admin_notices', 0 );
+
+function so_rwms_min_wp_version() {
+	global $wp_version;
+	$require_wp = '3.6';
+	$update_url = get_admin_url( null, 'update-core.php' );
+
+	$errors = array();
+
+	if ( version_compare( $wp_version, $require_wp, '<' ) ) 
+
+		$errors[] = "You have WordPress version $wp_version installed, but <b>this plugin requires at least WordPress $require_wp</b>. Please <a href='$update_url'>update your WordPress version</a>.";
+
+	return $errors; 
+}
+
+function so_rwms_check_admin_notices()
+{
+	$errors = so_rwms_min_wp_version();
+
+	if ( empty ( $errors ) )
+		return;
+
+	// Suppress "Plugin activated" notice.
+	unset( $_GET['activate'] );
+
+	// this plugin's name
+	$name = get_file_data( __FILE__, array ( 'Plugin Name' ), 'plugin' );
+
+	printf( __( '<div class="error"><p>%1$s</p><p><i>%2$s</i> has been deactivated.</p></div>', 'so_rwms' ),
+		join( '</p><p>', $errors ),
+		$name[0]
+	);
+	deactivate_plugins( plugin_basename( __FILE__ ) );
+}
+
+/**
+ *
+ * @since 0.1
+ */
 class SOrwms_Load {
 	
 	function __construct() {
@@ -41,7 +91,7 @@ class SOrwms_Load {
 	function constants() {
 
 		/* Set the version number of the plugin. */
-		define( 'SO_PINYINSLUGS_VERSION', '0.1' );
+		define( 'SO_PINYINSLUGS_VERSION', '0.2' );
 
 	}
 
