@@ -4,8 +4,10 @@ Plugin Name: SO Remove WPML Menu Sync
 Plugin URI: https://github.com/senlin/so-remove-wpml-menu-sync
 Description: This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
 Author: Piet Bos
-Version: 0.2
+Version: 0.2.1
 Author URI: http://senlinonline.com
+Text Domain: so-remove-wpml-menu-sync
+Domain Path: /languages
 */
 
 /**
@@ -55,7 +57,7 @@ function so_rwms_check_admin_notices()
 	// this plugin's name
 	$name = get_file_data( __FILE__, array ( 'Plugin Name' ), 'plugin' );
 
-	printf( __( '<div class="error"><p>%1$s</p><p><i>%2$s</i> has been deactivated.</p></div>', 'so_rwms' ),
+	printf( __( '<div class="error"><p>%1$s</p><p><i>%2$s</i> has been deactivated.</p></div>', 'so-remove-wpml-menu-sync' ),
 		join( '</p><p>', $errors ),
 		$name[0]
 	);
@@ -103,7 +105,7 @@ class SOrwms_Load {
 	function i18n() {
 
 		/* Load the translation of the plugin. */
-		load_plugin_textdomain( 'so-rwms', false, basename( dirname( __FILE__ ) ) . '/languages' );
+		load_plugin_textdomain( 'so-remove-wpml-menu-sync', false, basename( dirname( __FILE__ ) ) . '/languages/' );
 	}
 
 }
@@ -133,7 +135,7 @@ function so_no_wpml_warning() {
     
     echo '<div class="message error"><p>';
     
-    printf( __( 'The <strong>SO Remove WPML Menu Sync plugin</strong> only works if you have the <a href="%s">WPML</a> plugin installed.', 'so-rwms' ), 
+    printf( __( 'The <strong>SO Remove WPML Menu Sync plugin</strong> only works if you have the <a href="%s">WPML</a> plugin installed.', 'so-remove-wpml-menu-sync' ), 
         'http://wpml.org/' );
     
     echo '</p></div>';
