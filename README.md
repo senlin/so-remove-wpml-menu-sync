@@ -1,6 +1,6 @@
 # SO Remove WPML Menu Sync
 
-###### Version 0.2.1
+###### Version 0.2.2
 ###### requires at least WordPress 3.6
 ###### tested up to 3.7.1
 ###### Author: [Piet Bos](https://github.com/senlin)
@@ -79,6 +79,11 @@ This repo is open to _any_ kind of contributions.
 [Website](http://senlinonline.com)
 
 ## Changelog
+
+### 0.2.2
+
+* disabled warning on multisite installs, because warning was showing even if WPML has been installed
+* added plugin deactivation to warning message when WPML has not been installed
 
 ### 0.2.1
 

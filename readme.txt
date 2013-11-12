@@ -3,7 +3,7 @@ Contributor: senlin
 Tags: wpml, menu, sync, synchronization, addon
 Requires at least: 3.6
 Tested up to: 3.7.1
-Stable tag: 0.2.1
+Stable tag: 0.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,11 @@ Please open an issue on [Github](https://github.com/so-wp/so-remove-wpml-menu-sy
 none
 
 == Changelog ==
+
+= 0.2.2 =
+
+* disabled warning on multisite installs, because warning was showing even if WPML has been installed
+* added plugin deactivation to warning message when WPML has not been installed
 
 = 0.2.1 =
 
