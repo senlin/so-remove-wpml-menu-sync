@@ -1,9 +1,11 @@
 # SO Remove WPML Menu Sync
 
-###### Version 0.2.2
+###### Last updated on 2013.12.24
 ###### requires at least WordPress 3.6
-###### tested up to 3.7.1
+###### tested up to WordPress 3.9-alpha
 ###### Author: [Piet Bos](https://github.com/senlin)
+###### [Stable Version](http://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
+###### [Plugin homepage](http://so-wp.com/plugin/so-remove-wpml-menu-sync)
 
 
 This free [WPML](http://wpml.org) Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
@@ -22,25 +24,6 @@ The way the WPML sidebar menu in the WordPress back end is built up depends on w
 
 The Addon doesn't come with any settings.
 
-## Installation
-
-Quick installation: [Install now](http://coveredwebservices.com/wp-plugin-install/?plugin=so-remove-wpml-menu-sync) !
-
- &hellip; OR &hellip;
-
-Go to **Plugins > Add New** in your WordPress Dashboard, do a search for "so remove wpml menu sync" and install it.
-
- &hellip; OR &hellip;
-
-
- 1. Download zip file.
-
- 2. Upload the zip file via the Plugins > Add New > Upload page &hellip; OR &hellip; unpack and upload with your favourite FTP client to the /plugins/ folder.
-
- 3. Activate the plugin on the Plug-ins page.
-
-Done!
-
 ## Frequently Asked Questions
 
 ### Where are the Settings?
@@ -53,7 +36,7 @@ This plugin is an Addon for [WPML](http://wpml.org), the plugin that enables any
 
 ### I have an issue with this plugin, where can I get support?
 
-Please open an issue here on [Github](https://github.com/so-wp/so-remove-wpml-menu-sync/issues)
+Please open an issue here on [Github](https://github.com/senlin/so-remove-wpml-menu-sync/issues)
 
 ## Contributions
 
@@ -66,19 +49,24 @@ This repo is open to _any_ kind of contributions.
 
 ## Donations
 
-* Donate link: http://senl.in/PPd0na
+* Donate link: http://so-wp.com/donations
 
 ## Connect with me through
 
 [Github](https://github.com/senlin) 
 
-[Google+](http://plus.google.com/u/0/108543145122756748887) 
+[Google+](http://plus.google.com/+PietBos) 
 
 [WordPress](http://profiles.wordpress.org/senlin/) 
 
 [Website](http://senlinonline.com)
 
 ## Changelog
+
+### upcoming version
+
+* tested up to WP 3.9-alpha
+* change format version number
 
 ### 0.2.2
 
