@@ -1,11 +1,11 @@
 # SO Remove WPML Menu Sync
 
-###### Last updated on 2013.12.24
+###### Last updated on 2013.12.27
 ###### requires at least WordPress 3.6
 ###### tested up to WordPress 3.9-alpha
 ###### Author: [Piet Bos](https://github.com/senlin)
 ###### [Stable Version](http://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
-###### [Plugin homepage](http://so-wp.com/plugin/so-remove-wpml-menu-sync)
+###### [Plugin homepage](http://so-wp.com/?p=18)
 
 
 This free [WPML](http://wpml.org) Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
@@ -63,10 +63,11 @@ This repo is open to _any_ kind of contributions.
 
 ## Changelog
 
-### upcoming version
+### 2013.12.27
 
 * tested up to WP 3.9-alpha
-* change format version number
+* change version number format
+* adjust links readme files to new [SO WP website](http://so-wp.com)
 
 ### 0.2.2
 

@@ -1,8 +1,9 @@
 === SO Remove WPML Menu Sync ===
 Contributor: senlin
+Donate link: http://so-wp.com/donations
 Tags: wpml, menu, sync, synchronization, addon
 Requires at least: 3.6
-Tested up to: 3.7.1
+Tested up to: 3.9-alpha
 Stable tag: 0.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +12,7 @@ This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar me
 
 == Description ==
 
-> This plugin is an Addon for the amazing *WPML Plugin*.
+This plugin is an Addon for the amazing *WPML Plugin*.
 
 The WP Menus Sync feature of WPML can be very useful if all the content that is going to be part of the menu items in the navigation menu(s) too already has been translated. However not all people (developers) have that luxury and therefore choose to translate the navigation menu(s) manually.
 
@@ -25,7 +26,7 @@ The way the WPML sidebar menu in the WordPress back end is built up depends on w
 
 The Addon doesn't come with any settings.
 
-I have decided to only support this plugin through [Github](https://github.com/so-wp/so-remove-wpml-menu-sync/issues). Therefore, if you have any questions, need help and/or want to make a feature request, please open an issue over at Github. You can also browse through open and closed issues to find what you are looking for and perhaps even help others.
+I have decided to only support this plugin through [Github](https://github.com/senlin/so-remove-wpml-menu-sync/issues). Therefore, if you have any questions, need help and/or want to make a feature request, please open an issue over at Github. You can also browse through open and closed issues to find what you are looking for and perhaps even help others.
 
 **PLEASE DO NOT POST YOUR ISSUES VIA THE WORDPRESS FORUMS**
 
@@ -64,13 +65,19 @@ This plugin is an Addon for [WPML](http://wpml.org), the plugin that enables any
 
 = I have an issue with this plugin, where can I get support? =
 
-Please open an issue on [Github](https://github.com/so-wp/so-remove-wpml-menu-sync/issues)
+Please open an issue on [Github](https://github.com/senlin/so-remove-wpml-menu-sync/issues)
 
 == Screenshots ==
 
 none
 
 == Changelog ==
+
+= 2013.12.27 =
+
+* tested up to WP 3.9-alpha
+* change version number format
+* adjust links readme file to new [SO WP website](http://so-wp.com)
 
 = 0.2.2 =
 
