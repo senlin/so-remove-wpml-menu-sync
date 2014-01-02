@@ -1,6 +1,6 @@
 # SO Remove WPML Menu Sync
 
-###### Last updated on 2013.12.27
+###### Last updated on 2014.01.02
 ###### requires at least WordPress 3.6
 ###### tested up to WordPress 3.9-alpha
 ###### Author: [Piet Bos](https://github.com/senlin)
@@ -62,6 +62,10 @@ This repo is open to _any_ kind of contributions.
 [Website](http://senlinonline.com)
 
 ## Changelog
+
+### 2014.01.02
+
+* removed constants function
 
 ### 2013.12.27
 
