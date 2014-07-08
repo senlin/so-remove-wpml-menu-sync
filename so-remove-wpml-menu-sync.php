@@ -4,7 +4,7 @@ Plugin Name: SO Remove WPML Menu Sync
 Plugin URI: http://so-wp.com/?p=18
 Description: This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
 Author: Piet Bos
-Version: 2014.01.02
+Version: 2014.07.08
 Author URI: http://senlinonline.com
 Text Domain: so-remove-wpml-menu-sync
 Domain Path: /languages
@@ -19,7 +19,7 @@ Domain Path: /languages
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
- * Version check; any WP version under 3.6 is not supported (if only to "force" users to stay up to date)
+ * Version check; any WP version under 3.9 is not supported (if only to "force" users to stay up to date)
  * 
  * adapted from example by Thomas Scholz (@toscho) http://wordpress.stackexchange.com/a/95183/2015, Version: 2013.03.31, Licence: MIT (http://opensource.org/licenses/MIT)
  *
@@ -32,7 +32,7 @@ if ( ! empty ( $GLOBALS['pagenow'] ) && 'plugins.php' === $GLOBALS['pagenow'] )
 
 function so_rwms_min_wp_version() {
 	global $wp_version;
-	$require_wp = '3.6';
+	$require_wp = '3.9';
 	$update_url = get_admin_url( null, 'update-core.php' );
 
 	$errors = array();
@@ -159,19 +159,12 @@ add_action( 'admin_head-nav-menus.php', 'so_hide_wpml_sync_link' );
  * modified using http://wp.tutsplus.com/tutorials/creative-coding/customizing-your-wordpress-admin/
  *
  * @since 0.1
+ * @modified 2014.07.08 - latest version of WPML don't have different URL anymore for the menu sync
  */
 function so_remove_wpml_menu_sync() {  
     global $submenu;  
 
-	if ( is_plugin_active( 'wpml-translation-management/plugin.php' ) ) {
-		
-		remove_submenu_page( 'wpml-translation-management/menu/main.php', 'sitepress-multilingual-cms/menu/menus-sync.php' );
-		
-	} else {
-		
-		remove_submenu_page('sitepress-multilingual-cms/menu/languages.php','sitepress-multilingual-cms/menu/menus-sync.php');
-		
-	}
+	remove_submenu_page('sitepress-multilingual-cms/menu/languages.php','sitepress-multilingual-cms/menu/menus-sync.php');
 
 }
 

@@ -1,8 +1,8 @@
 # SO Remove WPML Menu Sync
 
-###### Last updated on 2014.01.02
-###### requires at least WordPress 3.6
-###### tested up to WordPress 3.9-alpha
+###### Last updated on 2014.07.08
+###### requires at least WordPress 3.9
+###### tested up to WordPress 3.9.1
 ###### Author: [Piet Bos](https://github.com/senlin)
 ###### [Stable Version](http://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
 ###### [Plugin homepage](http://so-wp.com/?p=18)
@@ -20,7 +20,7 @@ It is therefore that I have developed this small Addon. Of course people other t
 
 First of all it checks whether WPML has been installed. If it has it will hide the synchronization link from the Appearance &gt; Menus page. 
 
-The way the WPML sidebar menu in the WordPress back end is built up depends on whether the Translation Management Addon has been installed, so the Addon also does a quick check on that, before it removes the Menu Sync submenu.
+It also removes the link from the WPML submenu in the Dashboard sidebar.
 
 The Addon doesn't come with any settings.
 
@@ -62,6 +62,11 @@ This repo is open to _any_ kind of contributions.
 [Website](http://senlinonline.com)
 
 ## Changelog
+
+### 2014.07.08
+
+* adjusted removal to latest WPML versions
+* upped minimum required WP version to 3.9
 
 ### 2014.01.02
 
