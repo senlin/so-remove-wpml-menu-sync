@@ -2,9 +2,9 @@
 Contributors: senlin
 Donate link: http://so-wp.com/donations
 Tags: wpml, menu, sync, synchronization, addon
-Requires at least: 3.9
-Tested up to: 3.9.1
-Stable tag: 2014.07.08
+Requires at least: 2.0
+Tested up to: 4.2
+Stable tag: 2015.04.09
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,11 @@ Please open an issue on [Github](https://github.com/senlin/so-remove-wpml-menu-s
 none
 
 == Changelog ==
+
+= 2015.04.09 =
+
+* changed logos
+* new banner image for WP.org Repo by [Rula Sibai](https://unsplash.com/rulasibai)
 
 = 2014.07.08 =
 
