@@ -3,8 +3,8 @@ Contributors: senlin
 Donate link: http://so-wp.com/donations
 Tags: wpml, menu, sync, synchronization, addon
 Requires at least: 2.0
-Tested up to: 4.2
-Stable tag: 2015.04.09
+Tested up to: 4.3-alpha
+Stable tag: 22015.07.01
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,10 @@ Please open an issue on [Github](https://github.com/senlin/so-remove-wpml-menu-s
 none
 
 == Changelog ==
+
+= 2015.07.01 =
+
+* main function adjusted for WPML 3.2.2 (tip by [skeptikas](https://github.com/skeptikas)
 
 = 2015.04.09 =
 

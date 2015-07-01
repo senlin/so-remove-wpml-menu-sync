@@ -1,8 +1,8 @@
 # SO Remove WPML Menu Sync
 
-###### Last updated on 2015.04.09
+###### Last updated on 2015.07.01
 ###### requires at least WordPress 4.0
-###### tested up to WordPress 4.2
+###### tested up to WordPress 4.3-alpha
 ###### Author: [Piet Bos](https://github.com/senlin)
 ###### [Stable Version](http://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
 ###### [Plugin homepage](http://so-wp.com/?p=18)
@@ -60,6 +60,10 @@ This repo is open to _any_ kind of contributions.
 [Website](http://senlinonline.com)
 
 ## Changelog
+
+### 2015.07.01
+
+* main function adjusted for WPML 3.2.2 (tip by [skeptikas](https://github.com/skeptikas) (closes #1)
 
 ### 2015.04.09
 
