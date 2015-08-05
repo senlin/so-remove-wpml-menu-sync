@@ -2,9 +2,9 @@
 Contributors: senlin
 Donate link: http://so-wp.com/donations
 Tags: wpml, menu, sync, synchronization, addon
-Requires at least: 2.0
-Tested up to: 4.3-alpha
-Stable tag: 22015.07.01
+Requires at least: 4.0
+Tested up to: 4.3
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,25 +69,30 @@ none
 
 == Changelog ==
 
-= 2015.07.01 =
+= 1.1.1 (2015.08.05) =
+
+* revert to [semantic versioning](http://semver.org)
+* compatible up to WP 4.3
+
+= 1.1.0 (2015.07.01) =
 
 * main function adjusted for WPML 3.2.2 (tip by [skeptikas](https://github.com/skeptikas)
 
-= 2015.04.09 =
+= 1.0.3 (2015.04.09) =
 
 * changed logos
 * new banner image for WP.org Repo by [Rula Sibai](https://unsplash.com/rulasibai)
 
-= 2014.07.08 =
+= 1.0.2 (2014.07.08) =
 
 * adjusted removal to latest WPML versions
 * upped minimum required WP version to 3.9
 
-= 2014.01.02 =
+= 1.0.1 (2014.01.02) =
 
 * removed constants function
 
-= 2013.12.27 =
+= 1.0.0 (2013.12.27) =
 
 * tested up to WP 3.9-alpha
 * change version number format

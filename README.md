@@ -61,29 +61,34 @@ This repo is open to _any_ kind of contributions.
 
 ## Changelog
 
-### 2015.07.01
+### 1.1.1 (2015.08.05)
 
-* main function adjusted for WPML 3.2.2 (tip by [skeptikas](https://github.com/skeptikas) (closes #1)
+* revert to [semantic versioning](http://semver.org)
+* compatible up to WP 4.3
 
-### 2015.04.09
+### 1.1.0 (2015.07.01)
+
+* main function adjusted for WPML 3.2.2 (tip by [skeptikas](https://github.com/skeptikas)
+
+### 1.0.3 (2015.04.09)
 
 * changed logos
 * new banner image for WP.org Repo by [Rula Sibai](https://unsplash.com/rulasibai)
 
-### 2014.07.08
+### 1.0.2 (2014.07.08)
 
 * adjusted removal to latest WPML versions
 * upped minimum required WP version to 3.9
 
-### 2014.01.02
+### 1.0.1 (2014.01.02)
 
 * removed constants function
 
-### 2013.12.27
+### 1.0.0 (2013.12.27)
 
 * tested up to WP 3.9-alpha
 * change version number format
-* adjust links readme files to new [SO WP website](http://so-wp.com)
+* adjust links readme file to new [SO WP website](http://so-wp.com)
 
 ### 0.2.2
 
