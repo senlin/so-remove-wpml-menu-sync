@@ -2,15 +2,15 @@
 
 [![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync)
 
-###### Last updated on 2015.07.01
+###### Last updated on 2016.11.29
 ###### requires at least WordPress 4.0
-###### tested up to WordPress 4.4
+###### tested up to WordPress 4.7
 ###### Author: [Piet Bos](https://github.com/senlin)
-###### [Stable Version](http://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
-###### [Plugin homepage](http://so-wp.com/?p=18)
+###### [Stable Version](https://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
+###### [Plugin homepage](https://so-wp.com/?p=18)
 
 
-This free [WPML](http://wpml.org) Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
+This free [WPML](https://wpml.org) Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
 
 ## Description
 
@@ -34,7 +34,7 @@ You can stop looking, there are no settings. The Addon just works in the backgro
 
 ### Why is the plugin showing an error message after activation?
 
-This plugin is an Addon for [WPML](http://wpml.org), the plugin that enables any WordPress website to become 100% multilingual. If you don't have WPML installed, this Addon is useless, so better not install it.
+This plugin is an Addon for [WPML](https://wpml.org), the plugin that enables any WordPress website to become 100% multilingual. If you don't have WPML installed, this Addon is useless, so better not install it.
 
 ### I have an issue with this plugin, where can I get support?
 
@@ -51,17 +51,26 @@ This repo is open to _any_ kind of contributions.
 
 ## Donations
 
-* Donate link: http://so-wp.com/donations
+* Donate link: https://so-wp.com/plugins/donations
 
 ## Connect with me through
 
+[Website](https://bohanintl.com)
+
+[Website](https://so-wp.com)
+
 [Github](https://github.com/senlin) 
 
-[WordPress](http://profiles.wordpress.org/senlin/) 
+[LinkedIn](https://www.linkedin.com/in/pietbos) 
 
-[Website](http://senlinonline.com)
+[WordPress](https://profiles.wordpress.org/senlin/) 
 
 ## Changelog
+
+### 1.1.2 (2016.11.29)
+
+* remove version check
+* compatible up to WP 4.7
 
 ### 1.1.1 (2015.08.05)
 

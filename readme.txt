@@ -1,10 +1,10 @@
 === SO Remove WPML Menu Sync ===
 Contributors: senlin
-Donate link: http://so-wp.com/donations
+Donate link: https://so-wp.com/plugins/donations
 Tags: wpml, menu, sync, synchronization, addon
 Requires at least: 4.0
-Tested up to: 4.4
-Stable tag: 1.1.1
+Tested up to: 4.7
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,7 +57,7 @@ You can stop looking, there are no settings. The Addon just works in the backgro
 
 = Why is the plugin showing an error message after activation? =
 
-This plugin is an Addon for [WPML](http://wpml.org), the plugin that enables any WordPress website to become 100% multilingual. If you don't have WPML installed, this Addon is useless, so better not install it.
+This plugin is an Addon for [WPML](https://wpml.org), the plugin that enables any WordPress website to become 100% multilingual. If you don't have WPML installed, this Addon is useless, so better not install it.
 
 = I have an issue with this plugin, where can I get support? =
 
@@ -68,6 +68,11 @@ Please open an issue on [Github](https://github.com/senlin/so-remove-wpml-menu-s
 none
 
 == Changelog ==
+
+= 1.1.2 (2016.11.29) =
+
+* remove version check
+* compatible up to WP 4.7
 
 = 1.1.1 (2015.08.05) =
 
