@@ -3,8 +3,8 @@ Contributors: senlin
 Donate link: https://so-wp.com/plugins/donations
 Tags: wpml, menu, sync, synchronization, addon
 Requires at least: 4.0
-Tested up to: 4.7
-Stable tag: 1.1.2
+Tested up to: 4.8
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,8 +69,16 @@ none
 
 == Changelog ==
 
-= 1.1.2 (2016.11.29) =
+= 1.2 =
 
+* date: Jun 1, 2017
+* improve code
+* remove redundant language files
+* verified compatibility WP 4.8
+
+= 1.1.2 =
+
+* date: Nov 29, 2016
 * remove version check
 * compatible up to WP 4.7
 
