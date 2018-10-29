@@ -2,12 +2,13 @@
 
 [![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync)
 
-###### Last updated on 2017.6.1
+###### Last updated on October 29, 2018
 ###### requires at least WordPress 4.0
-###### tested up to WordPress 4.8
-###### Author: [Piet Bos](https://github.com/senlin)
+###### tested up to WordPress 5.0
+###### tested up to ClassicPress 1.0.0
+###### Author: [Pieter Bos](https://github.com/senlin)
 ###### [Stable Version](https://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
-###### [Plugin homepage](https://so-wp.com/?p=18)
+###### [Plugin homepage](https://so-wp.com/plugin/remove-wpml-menu-sync)
 
 
 This free [WPML](https://wpml.org) Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
@@ -67,9 +68,16 @@ This repo is open to _any_ kind of contributions.
 
 ## Changelog
 
-### 1.2
+### 1.2.1
 
-* date: Jun 1, 2017
+* October 29, 2018
+* fix bug that showed the sync link in nav menus page
+* verified compatibility WP 5.0
+* verified compatibility ClassicPress 1.0.0### 1.2
+
+### 1.2.0
+
+* date: June 1, 2017
 * improve code
 * remove redundant language files
 * verified compatibility WP 4.8

@@ -3,8 +3,8 @@ Contributors: senlin
 Donate link: https://so-wp.com/plugins/donations
 Tags: wpml, menu, sync, synchronization, addon
 Requires at least: 4.0
-Tested up to: 4.8
-Stable tag: 1.2
+Tested up to: 5.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,7 @@ In that case it would not be a good idea when the client unwittingly clicks on t
 
 It is therefore that I have developed this small Addon. Of course people other than developers can also use the addon if they don't want to use the navigation menu synchronization tool of WPML.
 
-First of all it checks whether WPML has been installed. If it has it will hide the synchronization link from the Appearance &gt; Menus page. 
+First of all it checks whether WPML has been installed. If it has it will hide the synchronization link from the Appearance &gt; Menus page.
 
 It also removes the link from the WPML submenu in the Dashboard sidebar.
 
@@ -63,11 +63,14 @@ This plugin is an Addon for [WPML](https://wpml.org), the plugin that enables an
 
 Please open an issue on [Github](https://github.com/senlin/so-remove-wpml-menu-sync/issues)
 
-== Screenshots ==
-
-none
-
 == Changelog ==
+
+= 1.2.1 =
+
+* October 29, 2018
+* fix bug that showed the sync link in nav menus page
+* verified compatibility WP 5.0
+* verified compatibility ClassicPress 1.0.0
 
 = 1.2 =
 
