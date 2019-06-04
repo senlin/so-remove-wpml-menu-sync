@@ -1,4 +1,4 @@
-# SO Remove WPML Menu Sync
+# Remove WPML Menu Sync
 
 [![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync)
 
@@ -62,7 +62,7 @@ This repo is open to _any_ kind of contributions.
 
 [Github](https://github.com/senlin) 
 
-[LinkedIn](https://www.linkedin.com/in/pietbos) 
+[LinkedIn](https://www.linkedin.com/in/pieterbos83) 
 
 [WordPress](https://profiles.wordpress.org/senlin/) 
 
@@ -73,7 +73,7 @@ This repo is open to _any_ kind of contributions.
 * October 29, 2018
 * fix bug that showed the sync link in nav menus page
 * verified compatibility WP 5.0
-* verified compatibility ClassicPress 1.0.0### 1.2
+* verified compatibility ClassicPress 1.0.0
 
 ### 1.2.0
 
