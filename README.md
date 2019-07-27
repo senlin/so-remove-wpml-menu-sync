@@ -1,6 +1,6 @@
 # Remove WPML Menu Sync
 
-[![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync)
+[![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync) [![WP compatibility](https://plugintests.com/plugins/so-remove-wpml-menu-sync/wp-badge.svg)](https://plugintests.com/plugins/so-remove-wpml-menu-sync/latest) [![PHP compatibility](https://plugintests.com/plugins/so-remove-wpml-menu-sync/php-badge.svg)](https://plugintests.com/plugins/so-remove-wpml-menu-sync/latest) [![ClassicPress tested on version 1.0.1](https://img.shields.io/badge/ClassicPress-1.0.1-03768e.svg?style=flat-round)](https://www.classicpress.net)
 
 ###### Last updated on October 29, 2018
 ###### requires at least WordPress 4.0
