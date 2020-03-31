@@ -2,9 +2,9 @@
 
 [![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync)
 
-###### Last updated on October 29, 2018
+###### Last updated on March 31, 2020
 ###### requires at least WordPress 4.0
-###### tested up to WordPress 5.0
+###### tested up to WordPress 5.4
 ###### tested up to ClassicPress 1.0.0
 ###### Author: [Pieter Bos](https://github.com/senlin)
 ###### [Stable Version](https://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
@@ -56,13 +56,13 @@ This repo is open to _any_ kind of contributions.
 
 ## Connect with me through
 
-[BHI Consulting for Websites](https://bohanintl.com)
+[BHI Localization for Websites](https://www.bhi-localization.com)
 
 [SO WP](https://so-wp.com)
 
 [Github](https://github.com/senlin) 
 
-[LinkedIn](https://www.linkedin.com/in/pietbos) 
+[LinkedIn](https://www.linkedin.com/in/pieterbos83) 
 
 [WordPress](https://profiles.wordpress.org/senlin/) 
 
