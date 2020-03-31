@@ -1,6 +1,6 @@
-# SO Remove WPML Menu Sync
+# Remove WPML Menu Sync
 
-[![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync)
+[![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync) [![WP compatibility](https://plugintests.com/plugins/so-remove-wpml-menu-sync/wp-badge.svg)](https://plugintests.com/plugins/so-remove-wpml-menu-sync/latest) [![PHP compatibility](https://plugintests.com/plugins/so-remove-wpml-menu-sync/php-badge.svg)](https://plugintests.com/plugins/so-remove-wpml-menu-sync/latest) [![ClassicPress tested on version 1.0.1](https://img.shields.io/badge/ClassicPress-1.0.1-03768e.svg?style=flat-round)](https://www.classicpress.net)
 
 ###### Last updated on March 31, 2020
 ###### requires at least WordPress 4.0
@@ -21,7 +21,7 @@ In that case it would not be a good idea when the client unwittingly clicks on t
 
 It is therefore that I have developed this small Addon. Of course people other than developers can also use the addon if they don't want to use the navigation menu synchronization tool of WPML.
 
-First of all it checks whether WPML has been installed. If it has it will hide the synchronization link from the Appearance &gt; Menus page. 
+First of all it checks whether WPML has been installed. If it has it will hide the synchronization link from the Appearance &gt; Menus page.
 
 It also removes the link from the WPML submenu in the Dashboard sidebar.
 
@@ -60,11 +60,11 @@ This repo is open to _any_ kind of contributions.
 
 [SO WP](https://so-wp.com)
 
-[Github](https://github.com/senlin) 
+[Github](https://github.com/senlin)
 
-[LinkedIn](https://www.linkedin.com/in/pieterbos83) 
+[LinkedIn](https://www.linkedin.com/in/pieterbos83)
 
-[WordPress](https://profiles.wordpress.org/senlin/) 
+[WordPress](https://profiles.wordpress.org/senlin/)
 
 ## Changelog
 
@@ -73,7 +73,7 @@ This repo is open to _any_ kind of contributions.
 * October 29, 2018
 * fix bug that showed the sync link in nav menus page
 * verified compatibility WP 5.0
-* verified compatibility ClassicPress 1.0.0### 1.2
+* verified compatibility ClassicPress 1.0.0
 
 ### 1.2.0
 
