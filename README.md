@@ -4,7 +4,7 @@
 
 ###### Last updated on March 31, 2020
 ###### requires at least WordPress 4.0
-###### tested up to WordPress 5.4
+###### tested up to WordPress 5.6
 ###### tested up to ClassicPress 1.0.0
 ###### Author: [Pieter Bos](https://github.com/senlin)
 ###### [Stable Version](https://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
