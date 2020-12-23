@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: SO Remove WPML Menu Sync
+Plugin Name: Remove WPML Menu Sync
 Plugin URI: https://so-wp.com/plugin/remove-wpml-menu-sync
 Description: This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
 Author: SO WP
-Version: 1.2.1
+Version: 1.2.2
 Author URI: https://so-wp.com
 Text Domain: so-remove-wpml-menu-sync
 Domain Path: /languages
@@ -72,7 +72,7 @@ class SOrwms_Load {
 		    // display the warning message
 		    echo '<div class="message error"><p>';
 
-		    printf( __( 'The <strong>SO Remove WPML Menu Sync plugin</strong> only works if you have the <a href="%s">WPML</a> plugin installed.', 'so-remove-wpml-menu-sync' ),
+		    printf( __( 'The <strong>Remove WPML Menu Sync plugin</strong> only works if you have the <a href="%s">WPML</a> plugin installed.', 'so-remove-wpml-menu-sync' ),
 		        'https://wpml.org' );
 
 		    echo '</p></div>';

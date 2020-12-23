@@ -1,4 +1,4 @@
-=== SO Remove WPML Menu Sync ===
+=== Remove WPML Menu Sync ===
 Contributors: senlin
 Donate link: https://so-wp.com/plugins/donations
 Tags: wpml, menu, sync, synchronization, addon
@@ -35,7 +35,7 @@ Thanks for your understanding and cooperation.
 
 == Installation ==
 
-Go to **Plugins > Add New** in your WordPress Dashboard, do a search for "so remove wpml menu sync" and install it.
+Go to **Plugins > Add New** in your WordPress Dashboard, do a search for "remove wpml menu sync" and install it.
 
  &hellip; OR &hellip;
 
@@ -64,6 +64,11 @@ This plugin is an Addon for [WPML](https://wpml.org), the plugin that enables an
 Please open an issue on [Github](https://github.com/senlin/so-remove-wpml-menu-sync/issues)
 
 == Changelog ==
+
+= 1.2.2 =
+
+* December 23, 2020
+* verified compatibility WP 5.6
 
 = 1.2.1 =
 
