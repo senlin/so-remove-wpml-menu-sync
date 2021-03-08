@@ -2,9 +2,9 @@
 
 [![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync) [![WP compatibility](https://plugintests.com/plugins/so-remove-wpml-menu-sync/wp-badge.svg)](https://plugintests.com/plugins/so-remove-wpml-menu-sync/latest) [![PHP compatibility](https://plugintests.com/plugins/so-remove-wpml-menu-sync/php-badge.svg)](https://plugintests.com/plugins/so-remove-wpml-menu-sync/latest)
 
-###### Last updated on December 23, 2020
+###### Last updated on March 8, 2021
 ###### requires at least WordPress 4.0
-###### tested up to WordPress 5.6
+###### tested up to WordPress 5.7
 ###### Author: [Pieter Bos](https://github.com/senlin)
 ###### [Stable Version](https://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
 ###### [Plugin homepage](https://so-wp.com/plugin/remove-wpml-menu-sync)
