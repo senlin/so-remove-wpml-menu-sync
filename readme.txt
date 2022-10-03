@@ -3,8 +3,8 @@ Contributors: senlin
 Donate link: https://so-wp.com/plugins/donations
 Tags: wpml, menu, sync, synchronization, addon
 Requires at least: 4.0
-Tested up to: 5.7
-Stable tag: 1.2.2
+Tested up to: 6.0
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,11 @@ This plugin is an Addon for [WPML](https://wpml.org), the plugin that enables an
 Please open an issue on [Github](https://github.com/senlin/so-remove-wpml-menu-sync/issues)
 
 == Changelog ==
+
+= 1.3.0 =
+
+* October 3, 2022
+* adjusted remove_submenu_page() function
 
 = 1.2.2 =
 

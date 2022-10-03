@@ -4,7 +4,7 @@ Plugin Name: Remove WPML Menu Sync
 Plugin URI: https://so-wp.com/plugin/remove-wpml-menu-sync
 Description: This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
 Author: SO WP
-Version: 1.2.2
+Version: 1.3.0
 Author URI: https://so-wp.com
 Text Domain: so-remove-wpml-menu-sync
 Domain Path: /languages
@@ -103,22 +103,21 @@ class SOrwms_Load {
 	<?php }
 
 	/**
-	 * The link to the WPML Menus Sync submenu depends on whether the WPML Translation Management Addon has been installed,
-	 * therefore this function first checks on that and then removes the WPML Menus Sync submenu
-	 *
-	 * modified using http://wp.tutsplus.com/tutorials/creative-coding/customizing-your-wordpress-admin/
+	 * Since WPML 4.5.x Translation Management is the first menu item and
+	 * the whole submenu has been overhauled
 	 *
 	 * @uses remove_submenu_page( $menu_slug, $submenu_slug );
 	 *
 	 * @since 0.1
 	 * @modified 2014.07.08 - latest version of WPML don't have different URL anymore for the menu sync
 	 * @modified 2015.07.01 - adjusted for WPML 3.2.2 (tip by [skeptikas](https://github.com/skeptikas)
+	 * @modified 2022.10.03 - adjusted for WPML 4.5.x
 	 */
 	function remove_wpml_menu_sync() {
 
 	    global $submenu;
 
-		remove_submenu_page( 'sitepress-multilingual-cms/menu/languages.php', 'sitepress-multilingual-cms/menu/menu-sync/menus-sync.php' );
+		remove_submenu_page( 'tm/menu/main.php', 'sitepress-multilingual-cms/menu/menu-sync/menus-sync.php' );
 
 	}
 

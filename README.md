@@ -2,9 +2,9 @@
 
 [![plugin version](https://img.shields.io/wordpress/plugin/v/so-remove-wpml-menu-sync.svg)](https://wordpress.org/plugins/so-remove-wpml-menu-sync) [![WP compatibility](https://plugintests.com/plugins/so-remove-wpml-menu-sync/wp-badge.svg)](https://plugintests.com/plugins/so-remove-wpml-menu-sync/latest) [![PHP compatibility](https://plugintests.com/plugins/so-remove-wpml-menu-sync/php-badge.svg)](https://plugintests.com/plugins/so-remove-wpml-menu-sync/latest)
 
-###### Last updated on March 8, 2021
+###### Last updated on October 3, 2022
 ###### requires at least WordPress 4.0
-###### tested up to WordPress 5.7
+###### tested up to WordPress 6.0
 ###### Author: [Pieter Bos](https://github.com/senlin)
 ###### [Stable Version](https://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
 ###### [Plugin homepage](https://so-wp.com/plugin/remove-wpml-menu-sync)
@@ -66,6 +66,11 @@ This repo is open to _any_ kind of contributions.
 [WordPress](https://profiles.wordpress.org/senlin/)
 
 ## Changelog
+
+### 1.3.0
+
+* October 3, 2022
+* adjusted remove_submenu_page() function
 
 ### 1.2.2
 
