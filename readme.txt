@@ -2,9 +2,9 @@
 Contributors: senlin
 Donate link: https://so-wp.com/plugins/donations
 Tags: wpml, menu, sync, synchronization, addon
-Requires at least: 4.0
-Tested up to: 6.0
-Stable tag: 1.3.0
+Requires at least: 5.0
+Tested up to: 6.8
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,12 @@ This plugin is an Addon for [WPML](https://wpml.org), the plugin that enables an
 Please open an issue on [Github](https://github.com/senlin/so-remove-wpml-menu-sync/issues)
 
 == Changelog ==
+
+= 1.3.1 =
+
+* April 27, 2025
+* removed redundant `load_plugin_textdomain()` function and increased min required WP version
+* tested up to WP 6.8
 
 = 1.3.0 =
 
