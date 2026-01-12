@@ -5,6 +5,7 @@ Plugin URI: https://so-wp.com/plugin/remove-wpml-menu-sync
 Description: This free WPML Addon removes the WP Menus Sync sub menu from the WPML sidebar menu in the backend and it hides the menu synchronization link that is displayed on the nav-menus pages.
 Author: SO WP
 Version: 1.3.1
+Tested up to: 6.9
 Author URI: https://so-wp.com
 Text Domain: so-remove-wpml-menu-sync
 Domain Path: /languages

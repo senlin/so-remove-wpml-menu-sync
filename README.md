@@ -4,7 +4,7 @@
 
 ###### Last updated on April 27, 2025
 ###### requires at least WordPress 5.0
-###### tested up to WordPress 6.8
+###### tested up to WordPress 6.9
 ###### Author: [Pieter Bos](https://github.com/senlin)
 ###### [Stable Version](https://wordpress.org/plugins/so-remove-wpml-menu-sync) (via WordPress Plugins Repository)
 ###### [Plugin homepage](https://so-wp.com/plugin/remove-wpml-menu-sync)
